@@ -59,8 +59,8 @@ public class Customer {
         return province;
     }
 
-    public Customer setProvince(Province province) {
+    public void setProvince(Province province) {
         this.province = province;
-        return this;
     }
+
 }
